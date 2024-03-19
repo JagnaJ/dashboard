@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard-app</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <header>
+        <div class="header__nav-input">
+          <img src="img/header/search.svg" alt="search icon" />
+          <label>
+            <input type="text" value="Search Tasks" />
+          </label>
+          <img class="go-icon" src="img/header/go.svg" alt="go" />
+        </div>
+        <img
+          class="header__microphone"
+          src="img/header/keyboard_voice.svg"
+          alt="microphone icon"
+        />
+        <ul class="header__nav-list">
+          <li class="header__dashboard-text">Dashboard</li>
+          <li class="header__list">My Tasks</li>
+          <li class="header__list">Reporting</li>
+          <li class="header__list">Portfolios</li>
+          <li class="header__list">Goals</li>
+        </ul>
+        <div class="header__right-icons">
+          <img src="img/header/folder_open.svg" alt="open folder icon" />
+          <img
+            src="img/header/notifications_none.svg"
+            alt="notifications icon"
+          />
+        </div>
+      </header>
+      <main>
+        <div class="main__heading">
+          <div class="main__heading-box">
+            <p>Task Boards</p>
+            <img src="img/main/edit-pen.svg" alt="edit pen" />
+          </div>
+          <ul>
+            <li>Timeline</li>
+            <li>Calendar</li>
+            <li>Dashboard</li>
+            <li>Progress</li>
+            <li>Form</li>
+          </ul>
+          <div class="main__heading-avatars">
+            <div class="main__circle-number"><p>+5</p></div>
+            <div class="main__circle-icon">
+              <img src="img/main/Icon-plus.svg" alt="icon plus" />
+            </div>
+          </div>
+        </div>
+        <div class="main__buttons">
+          <div class="buttons__left-items">
+            <div class="buttons__board-view">
+              <img src="img/main/board-view.svg" alt="board view icon" />
+              <p>Board View</p>
+            </div>
+            <div class="buttons__list-view">
+              <img src="img/main/list-view.svg" alt="list view icon" />
+              <p>List View</p>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="buttons__limited-acess">
+            <img src="img/main/lock.svg" alt="lock icon" />
+            <p>Limited Access</p>
+            <img src="img/main/keyboard_arrow_down.svg" alt="arrow down icon" />
+          </div>
+          <div class="line"></div>
+          <div class="buttons__owners-team">
+            <p class="owners">Owners</p>
+            <span><p>X</p></span>
+            <p class="team">X Team</p>
+          </div>
+          <div class="buttons__nav-input">
+            <img src="img/header/search.svg" alt="search icon" />
+            <label>
+              <input type="text" value="Search Tasks" />
+            </label>
+          </div>
+          <div class="buttons__right-items">
+            <div class="buttons__icon-button">
+              <img src="img/main/Icon-file.svg" alt="icon file" />
+            </div>
+            <div class="buttons__icon-button">
+              <img src="img/main/center-layout.svg" alt="center layout icon" />
+            </div>
+            <div class="buttons__icon-button">
+              <img src="img/main/left-layout.svg" alt="left layout icon" />
+            </div>
+            <div class="buttons__icon-button">
+              <img src="img/main/two-circles.svg" alt="circles icon" />
+            </div>
+            <div class="buttons__icon-button">
+              <img
+                src="img/main/Icon-edit-dashboard.svg"
+                alt="edit dashboard icon"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="backlog__name">
+          <div>
+            <p class="backlog__name-name">Backlog Tasks</p>
+            <span class="five"><p>5</p></span>
+          </div>
+          <span class="dots"
+            ><img src="img/main/more_horiz.svg" alt="more horiz dots icon"
+          /></span>
+        </div>
+        <div class="cards-container">
+          <div class="cards-container__card one">
+            <div>
+              <p class="card-name">Page “Order” and “Setting</p>
+              <img src="img/main/task.svg" alt="task icon" />
+              <p class="number-blue">4</p>
+            </div>
+            <div class="progress-frame">
+              <div><p>Progress</p></div>
+              <div><p>8/10</p></div>
+            </div>
+            <span class="horizontal-line"></span>
+            <div class="badges">
+              <div class="badge-design"><p>Design</p></div>
+              <div class="badge-backlog"><p>Backlog</p></div>
+            </div>
+            <div class="cards__bottom">
+              <div class="left-side">
+                <div class="cards__circle-number"><p>+5</p></div>
+                <div class="cards__circle-icon">
+                  <img src="img/main/Icon-plus.svg" alt="icon plus" />
+                </div>
+              </div>
+              <div class="right-side">
+                <img src="img/main/file_present (1).svg" alt="file icon" />
+                <p class="file-color">2</p>
+                <img src="img/main/message (1).svg" alt="message icon" />
+                <p class="message-color">4</p>
+              </div>
+            </div>
+          </div>
+          <div class="cards-container__card two">
+            <div>
+              <p class="card-name">Create calendar, chat and email app pages</p>
+              <img src="img/main/task.svg" alt="task icon" />
+              <p class="number-blue">1</p>
+            </div>
+            <div class="progress-frame">
+              <div><p>Progress</p></div>
+              <div><p>5/10</p></div>
+            </div>
+            <span class="horizontal-line"></span>
+            <div class="badges">
+              <div class="badge-development"><p>Development</p></div>
+              <div class="badge-backlog"><p>Backlog</p></div>
+            </div>
+            <div class="cards__bottom">
+              <div class="left-side">
+                <div class="cards__circle-number"><p>+5</p></div>
+                <div class="cards__circle-icon">
+                  <img src="img/main/Icon-plus.svg" alt="icon plus" />
+                </div>
+              </div>
+              <div class="right-side">
+                <img src="img/main/file_present.svg" alt="file icon" />
+                <p class="no-color">2</p>
+                <img src="img/main/message.svg" alt="message icon" />
+                <p class="no-color">4</p>
+              </div>
+            </div>
+          </div>
+          <div class="cards-container__card three">
+            <div>
+              <p class="card-name">
+                Product Design, Figma, Sketch (Software), Prototype
+              </p>
+              <img src="img/main/task-no-color.svg" alt="task icon" />
+              <p class="number-white">2</p>
+            </div>
+            <div class="progress-frame">
+              <div><p>Progress</p></div>
+              <div><p>3/10</p></div>
+            </div>
+            <span class="horizontal-line"></span>
+            <div class="badge-backlog"><p>Backlog</p></div>
+            <div class="cards__bottom">
+              <div class="left-side">
+                <div class="cards__circle-number"><p>+5</p></div>
+                <div class="cards__circle-icon">
+                  <img src="img/main/Icon-plus.svg" alt="icon plus" />
+                </div>
+              </div>
+              <div class="right-side">
+                <img src="img/main/file_present.svg" alt="file icon" />
+                <p class="no-color">2</p>
+                <img src="img/main/message.svg" alt="message icon" />
+                <p class="no-color">4</p>
+              </div>
+            </div>
+          </div>
+          <div class="cards-container__card four">
+            <div>
+              <p class="card-name">Change email option process</p>
+              <img src="img/main/task-no-color.svg" alt="task icon" />
+              <p class="number-white">2</p>
+            </div>
+            <div class="progress-frame">
+              <div><p>Progress</p></div>
+              <div><p>4/10</p></div>
+            </div>
+            <span class="horizontal-line"></span>
+            <div class="badge-backlog"><p>Backlog</p></div>
+            <div class="cards__bottom">
+              <div class="left-side">
+                <div class="cards__circle-number"><p>+5</p></div>
+                <div class="cards__circle-icon">
+                  <img src="img/main/Icon-plus.svg" alt="icon plus" />
+                </div>
+              </div>
+              <div class="right-side">
+                <img src="img/main/file_present.svg" alt="file icon" />
+                <p class="no-color">2</p>
+                <img src="img/main/message.svg" alt="message icon" />
+                <p class="no-color">4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <aside>
+      <head>
+        <div class="head__content">
+          <div class="app-icon"></div>
+          <p>Application Name</p>
+          <img
+            class="head__burger-icon"
+            src="img/head/head-burger.svg"
+            alt="burger icon"
+          />
+        </div>
+      </head>
+      <div class="aside__user">
+        <div class="aside__name-column">
+          <p class="aside__name">Designluch</p>
+          <p class="aside__profession">Designer</p>
+        </div>
+        <img src="img/aside/unfold_more.svg" alt="unfold more" />
+      </div>
+      <div class="aside__items">
+        <div class="aside__items-line">
+          <img src="img/aside/inbox.svg" alt="inbox icon" />
+          <p class="aside__text">Inbox</p>
+          <div class="aside__number-circle"><p>4</p></div>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/drive_folder_upload.svg" alt="drive files icon" />
+          <p class="aside__text">Drive Files</p>
+          <div class="aside__number-big"><p>435</p></div>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/boards.svg" alt="boards icon" />
+          <p class="aside__text">Boards</p>
+          <div class="aside__number-circle"><p>5</p></div>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/updates.svg" alt="updates icon" />
+          <p class="aside__text">Updates</p>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/analytics.svg" alt="analytics icon" />
+          <p class="aside__text">Analytics</p>
+          <div class="aside__number-circle"><p>2</p></div>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/space_dashboard.svg" alt="dashboard icon" />
+          <p class="aside__text">CRM Dashboard</p>
+          <div class="aside__number-circle"><p>2</p></div>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/sell.svg" alt="sell icon" />
+          <p class="aside__text">Ecommerce</p>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/payment.svg" alt="payment icon" />
+          <p class="aside__text">Cryptocurrency</p>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/lock_clock.svg" alt="lock icon" />
+          <p class="aside__text">Projects</p>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/nft-marketplace.svg" alt="search icon" />
+          <p class="aside__text">NFT Marketplace</p>
+        </div>
+        <div class="aside__items-line">
+          <img src="img/aside/settings.svg" alt="settings icon" />
+          <p class="aside__text">Settings</p>
+          <div class="aside__number-circle"><p>2</p></div>
+        </div>
+      </div>
+    </aside>
+  </body>
+</html>
