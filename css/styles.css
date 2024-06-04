@@ -1,6 +1,6 @@
 .dashboard-container {
-  width: 1159px;
-  height: 1024px;
+  /* width: 1159px;
+  height: 1024px; */
   flex-grow: 0;
   padding: 0 1px 0 0;
   border-radius: 20px;
@@ -10,7 +10,8 @@
 body {
   display: flex;
   flex-direction: row-reverse;
-  width: 1440px;
+  width: 100vw;
+  height: 100vh;
 }
 
 header {
@@ -626,8 +627,8 @@ header {
 }
 
 aside {
-  width: 280px;
-  height: 1024px;
+  /* width: 280px;
+  height: 1024px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
